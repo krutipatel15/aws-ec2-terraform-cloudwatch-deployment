@@ -1,0 +1,15 @@
+# Ignore SSH keys
+*.pem
+
+# Ignore Terraform files that contain sensitive info or are auto-generated
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+*.backup
+
+# Ignore IDE/project-specific files
+*.log
+*.DS_Store
+.idea/
+.vscode/
